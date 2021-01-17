@@ -1,6 +1,7 @@
 import React from 'react'
 import Card from './Card'
 import Sdata from './Sdata'
+import Hum from '../src/img/Hum.png';
 
 function Services() {
     return (
@@ -21,7 +22,7 @@ function Services() {
                                         subtitle='Some quick example text to build on the card title and make up the bulk of the card'
                                         visit='/'
                                         btn='Go somewhere' 
-                                        imgsrc='img/Hum.png'
+                                        imgsrc={Hum}
                                         />
                                 )
                             })
